@@ -1,0 +1,58 @@
+html{
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+body{
+    margin: 0;
+    background-color: #171017;
+}
+
+header{
+    background-color: #120812;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    border-bottom: 1px #7777 solid;
+}
+
+header h1{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    gap: 1rem;
+}
+
+nav a{
+    color: turquoise;
+}
+
+main{
+    margin: 2rem 20vw;
+    background-color: #201320;
+    border: #7777 1px solid;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+    padding: 0 2rem;
+}
+
+article{
+    margin-bottom: 2rem;
+}
+
+section{
+    margin-bottom: 1rem;
+}
+
+article h2, article h3{
+    background-color: #969C;
+    padding: 5px;
+}
+
+article h3{
+    background-color: #757C;
+}

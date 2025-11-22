@@ -1,9 +1,10 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
+    width: 100%;
 }
 
 .box {
-    width: 100px;
+    width: 33%;
 }
+

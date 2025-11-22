@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  width: 100%;
+  grid-template-areas: 
+  "logo . . . nav nav"
+  "menu content content content content aside"
+  ". footer1 footer2 footer3 copyright copyright";
+}
+
+/* header */
+#logo {
+    grid-area: logo;
+}
+
+#nav {
+    grid-area: nav;
+}
+
+/* content */
+#mainnav {
+    grid-area: menu;
+}
+
+#article {
+    grid-area: content;
+}
+
+#aside {
+    grid-area: aside;
+}
+
+/* footer */
+#footer1 {
+    grid-area: footer1;
+}
+
+#footer2 {
+    grid-area: footer2;
+}
+
+#footer3 {
+    grid-area: footer3;
+}
+
+#copyright{
+    grid-area: copyright;
+}

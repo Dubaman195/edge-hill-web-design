@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  width: 100%;
+  grid-template-areas: 
+  "header header header"
+  "nav main main"
+  "footer footer footer";
+}
+
+.header {
+    grid-area: header;
+    grid-column: span 1;
+}
+
+.nav{
+    grid-area: nav;
+    grid-column: span 1;
+}
+
+.main{
+    grid-area: main;
+    grid-column: span 2
+}
+
+.footer{
+    grid-area: footer;
+    grid-column: span 1;
+}

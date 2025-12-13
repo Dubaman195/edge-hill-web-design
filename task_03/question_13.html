@@ -1,0 +1,57 @@
+   <!DOCTYPE html>
+   <html>
+   <head>
+       <title>Module Rating</title>
+   </head>
+   <body>
+       <h1>Rate Module CIS1705</h1>
+       <form>
+           <label for="rating">Rate the module:</label>
+           <select id="rating" name="rating">
+               <option value="1">1 - Terrible</option>
+               <option value="2">2 - Bad</option>
+               <option value="3">3 - Not Great</option>
+               <option value="4">4 - Good</option>
+               <option value="5">5 - Great</option>
+           </select>
+           <button type="button" onclick="showModuleRating()">Submit</button>
+       </form>
+       <div id="result"></div>
+
+       <script>
+           // Function to handle the form submission and display the module rating
+           function showModuleRating() {
+               // Get the select element that contains the rating options
+               const selectElement = document.getElementById("rating");
+               // Get the selected rating value from the select element
+               const ratingValue = selectElement.value;
+               // Get the result element where the rating text will be displayed
+               const resultElement = document.getElementById("result");
+
+               // Start of student code
+
+                switch (ratingValue) {
+                   case "1":
+                       resultElement.innerHTML = "The module is terrible.";
+                       break;
+                   case "2":
+                       resultElement.innerHTML = "The module is bad.";
+                       break;
+                   case "3":
+                       resultElement.innerHTML = "The module is not great.";
+                       break;
+                   case "4":
+                       resultElement.innerHTML = "The module is good.";
+                       break;
+                   case "5":
+                       resultElement.innerHTML = "The module is great.";
+                       break;
+                }
+
+               // End of student code
+   }
+
+
+       </script>
+   </body>
+   </html>

@@ -1,0 +1,23 @@
+   body {
+       font-family: Arial, sans-serif;
+       background-color: #f0f0f0;
+   }
+
+   #main-title {
+       color: #333;
+       margin-top: 0px
+   }
+
+   .description {
+       font-size: 16px;
+       color: rgba(60, 60, 60, 1);
+   }
+
+   .cta {
+       background-color: #0088cc;
+       padding: 10px 20px;
+       border: none;
+       color: white;
+       border-radius: 5px;
+       cursor: pointer;
+   }
